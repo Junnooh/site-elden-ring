@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Mantinia';
+    src: url('Banco/Mantinia\ Regular.otf') format('otf');
+    /* Adicione mais formatos aqui, se necessário */
+}
+
+*{
+    box-sizing:border-box;
+    margin: 0;  
+    padding: 0;
+}
+
+body {
+    font-family: 'Mantinia', sans-serif;
+    background-color:#164440;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+header {
+    background-color: #070809;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: #C19d53;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+header img {
+    height: 100px;
+    display: inline;
+}
