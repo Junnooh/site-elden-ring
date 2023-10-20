@@ -18,7 +18,7 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
 }
 
 
@@ -41,3 +41,15 @@ header img {
     height: 100px;
     display: inline;
 }
+
+#about img {
+    width: 683px;
+    margin-top: 10px;
+    margin-right: 10px;
+} 
+
+.cape {
+    display: flex;
+    margin-top: 10px;
+}
+
