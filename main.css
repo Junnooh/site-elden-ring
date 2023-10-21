@@ -123,6 +123,13 @@ header img {
     display: block;
 }
 
+.singin h2{
+    text-align: center;
+    color: #C19d53 ;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
 section .sub {
     display: flex;
     justify-content: center;
